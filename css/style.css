@@ -10,10 +10,99 @@ body {
   margin: 0;
 }
 
-.parent {
+.main-card {
+  width: 600px;
+  height: 464px;
+
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+
+  background-color: var(--White);
+
+  border-radius: 8px;
+}
+.img-div {
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--White);
+  padding: 32px;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.title {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-preset-4);
+  line-height: var(--lh-preset-4);
+  letter-spacing: var(--ls-preset-4);
+  font-weight: var(--fw-preset-4);
+
+  color: var(--Grey);
+}
+.header {
+  font-family: var(--ff-fraunces);
+  font-size: var(--fs-preset-1);
+  line-height: var(--lh-preset-1);
+  letter-spacing: var(--ls-preset-1);
+  font-weight: var(--fw-preset-1);
+
+  margin: 24px 0;
+}
+.text-area {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-preset-3);
+  line-height: var(--lh-preset-3);
+  letter-spacing: var(--ls-preset-3);
+  font-weight: var(--fw-preset-3);
+
+  color: var(--Grey);
+}
+
+/* Prices  */
+.price-box {
+  margin: 32px 0;
+}
+.price {
+  font-family: var(--ff-fraunces);
+  font-size: var(--fs-preset-1);
+  line-height: var(--lh-preset-1);
+  letter-spacing: var(--ls-preset-1);
+  font-weight: var(--fw-preset-1);
+
+  color: var(--green500);
+}
+.old-price {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-preset-5);
+  line-height: var(--lh-preset-5);
+  letter-spacing: var(--ls-preset-5);
+  font-weight: var(--fw-preset-5);
+
+  color: var(--Grey);
+}
+
+/* Buy button */
+.buy-btn {
+  background-color: var(--green500);
+  color: var(--White);
+  width: 236px;
+  height: 50px;
+  border-radius: 8px;
+}
+.buy-btn:hover {
+  background-color: var(--green700);
+  cursor: pointer;
 }

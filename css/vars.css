@@ -9,15 +9,37 @@
   --Cream: #f2ebe3;
   --White: #ffffff;
 
-    /* Montserrat */
-  --font-montserrat: 'Montserrat', sans-serif;
-  --montserrat-500: 500;
-  --montserrat-700: 700;
+ /* Font families */
+  --ff-fraunces: 'Fraunces', serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
 
-  /* Fraunces */
-  --font-fraunces: 'Fraunces', serif;
-  --fraunces-700: 700;
+  /* text-preset-1 */
+  --fs-preset-1: 32px;
+  --lh-preset-1: 100%;
+  --ls-preset-1: 0px;
+  --fw-preset-1: 700; /* Fraunces Bold */
 
-    /* Body Copy */
-  --body-font-size: 14px;
+  /* text-preset-2 */
+  --fs-preset-2: 14px;
+  --lh-preset-2: 110%;
+  --ls-preset-2: 0px;
+  --fw-preset-2: 700; /* Montserrat Bold */
+
+  /* text-preset-3 */
+  --fs-preset-3: 14px;
+  --lh-preset-3: 160%;
+  --ls-preset-3: 0px;
+  --fw-preset-3: 500; /* Montserrat Medium */
+
+  /* text-preset-4 */
+  --fs-preset-4: 12px;
+  --lh-preset-4: 120%;
+  --ls-preset-4: 5px;
+  --fw-preset-4: 500; /* Montserrat Medium */
+
+  /* text-preset-5 */
+  --fs-preset-5: 13px;
+  --lh-preset-5: 120%;
+  --ls-preset-5: 0px;
+  --fw-preset-5: 500; /* Montserrat Medium */
 }
