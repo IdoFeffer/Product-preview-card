@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Fraunces:wght@700&display=swap');
+
+:root {
+  --green500: #3c8067;
+  --green700: #1b4133;
+
+  --Black: #1c232b;
+  --Grey: #6c7289;
+  --Cream: #f2ebe3;
+  --White: #ffffff;
+
+    /* Montserrat */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --montserrat-500: 500;
+  --montserrat-700: 700;
+
+  /* Fraunces */
+  --font-fraunces: 'Fraunces', serif;
+  --fraunces-700: 700;
+
+    /* Body Copy */
+  --body-font-size: 14px;
+}
